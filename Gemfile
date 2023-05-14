@@ -47,6 +47,11 @@ gem "bootsnap", require: false
 
 gem 'devise', branch: 'rails_7', github: 'DavidColby/devise'
 
+gem 'name_of_person', '~> 1.1', '>= 1.1.1'
+
+gem "annotate", "~> 3.2"
+
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

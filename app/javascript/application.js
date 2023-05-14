@@ -4,6 +4,9 @@ import consumer from "./channels/consumer";
 import CableReady from "cable_ready";
 import mrujs from "mrujs";
 import { CableCar } from "mrujs/plugins";
+import * as ActiveStorage from "@rails/activestorage";
+
+ActiveStorage.start();
 
 mrujs.start({
   plugins: [new CableCar(CableReady)],
